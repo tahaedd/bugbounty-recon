@@ -24,7 +24,7 @@ RUN go install github.com/lc/subjs@latest
 
 # Clone recon tools
 RUN git clone https://github.com/xnl-h4ck3r/waymore.git /opt/waymore
-RUN git clone https://github.com/0xsha/JSLinkFinder.git /opt/jslinkfinder
+RUN git clone https://github.com/0xsha/GoLinkFinder.git /opt/golinkfinder
 RUN git clone https://github.com/GerbenJavado/LinkFinder.git /opt/LinkFinder
 RUN git clone https://github.com/xnl-h4ck3r/xnLinkFinder.git /opt/xnLinkFinder
 RUN git clone https://github.com/0x240x23elu/JSScanner.git /opt/JSScanner
