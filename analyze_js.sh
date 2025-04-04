@@ -31,7 +31,7 @@ for FILE in "$SUBS_DIR"/*.txt; do
         [[ -f "$JSFILE" ]] || continue
 
         # jslinkfinder
-        python3 /opt/jslinkfinder/jslinkfinder.py -i "$JSFILE" >> "$OUT_DIR/$SUBDOMAIN/jslinkfinder.txt"
+        python3 /opt/golinkfinder/golinkfinder.py -i "$JSFILE" >> "$OUT_DIR/$SUBDOMAIN/jslinkfinder.txt"
 
         # LinkFinder
         python3 /opt/LinkFinder/linkfinder.py -i "$JSFILE" -o cli >> "$OUT_DIR/$SUBDOMAIN/linkfinder.txt"
